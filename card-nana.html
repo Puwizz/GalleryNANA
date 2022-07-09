@@ -30,6 +30,7 @@
         box-shadow: 4px 8px 8px rgb(248, 245, 245);
         border-radius: 5px;
         margin: 20px;
+        margin-top: 100px;
         
         
     }
@@ -39,6 +40,12 @@
         border-radius: 5px 5px 0 0;
         height: 350px;
         display: block;
+    }
+
+    .card > h4 {
+        font-family: "FC Home";
+        font-weight: 600;
+        font-style: initial;
     }
     
     .container {
@@ -65,15 +72,32 @@
         font-weight: 500;
     }
     
-    h2 {
+    .Topic {
         text-align: center;
         font-size: 42px;
         font-weight: bold;
     }
+    
+    .Topic:hover > p {
+        display: block
+    }
+    .Topic > p {
+        display: none;
+        background-color: antiquewhite;
+        color: black;
+        font-size: 1em;
+        font-family: "FC Home";
+        font-weight: 500;
+      
+        text-align: center;
+    }
     </style>
 </head>
 <body>
-    <h2>ศูนย์รวมรูปคนน่ารัก&#128152;</h2>
+    <div class="Topic">ศูนย์รวมรูปคนน่ารัก&#128152;
+        <p>เธอคนนี้น่ารัก น่าทะนุถนอม ผมชอบเธอครับ แต่ผมแอ๊บอยู่ ตาคู่นั้นทำใจผมสั่น ผมมักจะมองเธออยู่ห่างๆ คอยสังเกตว่าเธอนั้นมีปัญหาอะไร ผมอยากจะช่วยเธอ ตั้งแต่ชอบเธอ ผมไม่เคยมองใคร ไม่สนใจใครเลย อยากให้เธอได้ยินเสียงจากใจผม แต่ก็กลัวจะส่งผลเสียเลยเลือกที่จะเก็บไว้ ผมอยากจะคุยกับเธอให้มากกว่านี้ อยากรู้จัก แต่ผมนั้นค่อนข้างขี้ขลาดไปหน่อย เอิ่มม แย่จุง อาจจะด้วยสิ่งที่ผมผ่านมาคงทำร้ายผมหนักมาก เธอเคยส่งเพลงให้ผมฟังเพื่อปลอบผม ผมฟังทุกวัน ผมรู้สึกดีมาก น่ารักขนาดนี้ ขอให้โลกใจดีกับเธอนะ &#128152</p>
+    </div>
+    
     <div class="card">
         <img src="./Card/nana.jpg" alt="">
         <div class="container">
